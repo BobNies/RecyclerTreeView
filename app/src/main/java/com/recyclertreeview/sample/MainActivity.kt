@@ -1,4 +1,4 @@
-package tellh.com.recyclertreeview
+package com.recyclertreeview.sample
 
 import android.os.Bundle
 import android.view.Menu
@@ -7,13 +7,11 @@ import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import tellh.com.recyclertreeview.bean.Dir
-import tellh.com.recyclertreeview.bean.File
-import tellh.com.recyclertreeview.viewbinder.DirectoryNodeBinder
-import tellh.com.recyclertreeview.viewbinder.FileNodeBinder
-import tellh.com.recyclertreeview_lib.TreeNode
-import tellh.com.recyclertreeview_lib.TreeViewAdapter
-import tellh.com.recyclertreeview_lib.TreeViewAdapter.OnTreeNodeListener
+import com.recyclertreeview.sample.bean.Dir
+import com.recyclertreeview.sample.bean.File
+import com.recyclertreeview.lib.TreeNode
+import com.recyclertreeview.lib.TreeViewAdapter
+import com.recyclertreeview.lib.TreeViewAdapter.OnTreeNodeListener
 import java.util.*
 
 class MainActivity : AppCompatActivity() {

@@ -1,12 +1,11 @@
-package tellh.com.recyclertreeview.viewbinder
+package com.recyclertreeview.sample
 
 import android.view.View
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import tellh.com.recyclertreeview.R
-import tellh.com.recyclertreeview.bean.File
-import tellh.com.recyclertreeview_lib.TreeNode
-import tellh.com.recyclertreeview_lib.TreeViewBinder
+import com.recyclertreeview.sample.bean.File
+import com.recyclertreeview.lib.TreeNode
+import com.recyclertreeview.lib.TreeViewBinder
 
 
 class FileNodeBinder : TreeViewBinder<FileNodeBinder.ViewHolder>() {

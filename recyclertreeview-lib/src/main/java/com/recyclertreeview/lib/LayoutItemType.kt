@@ -1,4 +1,4 @@
-package tellh.com.recyclertreeview_lib
+package com.recyclertreeview.lib
 
 interface LayoutItemType {
     val layoutId: Int

@@ -1,13 +1,12 @@
-package tellh.com.recyclertreeview.viewbinder
+package com.recyclertreeview.sample
 
 import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import tellh.com.recyclertreeview.R
-import tellh.com.recyclertreeview.bean.Dir
-import tellh.com.recyclertreeview_lib.TreeNode
-import tellh.com.recyclertreeview_lib.TreeViewBinder
+import com.recyclertreeview.sample.bean.Dir
+import com.recyclertreeview.lib.TreeNode
+import com.recyclertreeview.lib.TreeViewBinder
 
 class DirectoryNodeBinder : TreeViewBinder<DirectoryNodeBinder.ViewHolder>() {
     override fun provideViewHolder(itemView: View): ViewHolder {

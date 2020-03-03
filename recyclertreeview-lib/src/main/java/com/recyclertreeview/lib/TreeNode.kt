@@ -1,4 +1,4 @@
-package tellh.com.recyclertreeview_lib
+package com.recyclertreeview.lib
 
 import java.util.*
 
