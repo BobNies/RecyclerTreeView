@@ -14,9 +14,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-/**
- * Created by tlh on 2016/10/1 :)
- */
+
 public class TreeViewAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     private static final String KEY_IS_EXPAND = "IS_EXPAND";
     private final List<? extends TreeViewBinder> viewBinders;
@@ -36,11 +34,7 @@ public class TreeViewAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolde
         this.viewBinders = viewBinders;
     }
 
-    /**
-     * 从nodes的结点中寻找展开了的非叶结点，添加到displayNodes中。
-     *
-     * @param nodes 基准点
-     */
+
     private void findDisplayNodes(List<TreeNode> nodes) {
         for (TreeNode node : nodes) {
             displayNodes.add(node);
@@ -85,11 +79,9 @@ public class TreeViewAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolde
 
     @Override
     public void onBindViewHolder(final RecyclerView.ViewHolder holder, int position) {
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR1) {
-            holder.itemView.setPaddingRelative(displayNodes.get(position).getHeight() * padding, 3, 3, 3);
-        }else {
-            holder.itemView.setPadding(displayNodes.get(position).getHeight() * padding, 3, 3, 3);
-        }
+
+        holder.itemView.setPaddingRelative(displayNodes.get(position).getHeight() * padding, 3, 3, 3);
+
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
