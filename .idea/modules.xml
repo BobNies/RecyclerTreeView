@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Documents-RecyclerTreeView.iml" filepath="$PROJECT_DIR$/Documents-RecyclerTreeView.iml" group="RecyclerTreeView" />
       <module fileurl="file://$PROJECT_DIR$/RecyclerTreeView.iml" filepath="$PROJECT_DIR$/RecyclerTreeView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/RecyclerTreeView-app.iml" filepath="$PROJECT_DIR$/app/RecyclerTreeView-app.iml" group="RecyclerTreeView/app" />
+      <module fileurl="file://$PROJECT_DIR$/recyclertreeview-lib/RecyclerTreeView-recyclertreeview-lib.iml" filepath="$PROJECT_DIR$/recyclertreeview-lib/RecyclerTreeView-recyclertreeview-lib.iml" group="RecyclerTreeView/recyclertreeview-lib" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/recyclertreeview-lib/recyclertreeview-lib.iml" filepath="$PROJECT_DIR$/recyclertreeview-lib/recyclertreeview-lib.iml" />
     </modules>
